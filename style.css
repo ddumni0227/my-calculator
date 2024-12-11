@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  margin: 50px;
+  width: 800px;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgb(193, 177, 248);
+  box-shadow: rgba(193, 177, 248, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mini {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: flex-start;
+  width: 700px;
+  margin: 5px;
+}
+.button1 {
+  border: 1px solid #ff6059;
+  width: 16px;
+  height: 16px;
+  background-color: #ff6059;
+  border-radius: 8px;
+  margin: 5px;
+}
+.button2 {
+  border: 1px solid #febd2f;
+  width: 16px;
+  height: 16px;
+  background-color: #febd2f;
+  border-radius: 8px;
+  margin: 5px;
+}
+.button3 {
+  border: 1px solid #2ac841;
+  width: 16px;
+  height: 16px;
+  background-color: #2ac841;
+  border-radius: 8px;
+  margin: 5px;
+}
+.display {
+  width: 700px;
+  height: 200px;
+  margin-bottom: 15px;
+  background-color: black;
+  border-radius: 40px;
+  font-size: 60px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow: rgba(193, 177, 248, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.answer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.buttons {
+  width: 700px;
+  height: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: rgb(134, 99, 247);
+  color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: solid 1px rgb(134, 99, 247);
+  margin: 20px;
+  font-size: 40px;
+  box-shadow: rgba(193, 177, 248, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.zero {
+  width: 300px;
+  height: 120px;
+}
+
+button:hover {
+  background-color: white;
+  border: solid 1px white;
+  color: black;
+}
+button:active {
+  background-color: rgb(50, 23, 138);
+  color: white;
+  border: solid 1px rgb(50, 23, 138);
+}
